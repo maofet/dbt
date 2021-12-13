@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: close_crm_data
+    database: spatial_dwh
+    schema: close_crm_dwh
+    tables:
+      - name: leads
+        description: 'Leads from CRM.'
